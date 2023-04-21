@@ -1,0 +1,134 @@
+body {
+    font-family: "Lora";
+    color: #333;
+}
+
+#sunsetVideo, #nightVideo {
+    min-width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    filter: blur(2px);
+}
+
+#controls {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    color: lavender;
+    font-size: 48px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* background-color: #333;
+    padding: 4px 12px;
+    border-radius: 8px; */
+}
+
+.fa-play, .fa-pause {
+    color: lavender;
+}
+
+.fa-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: lavender;
+    animation: spin 2s infinite ease-in-out;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+#lyrics p {
+    position: absolute;
+    transition: all 1.5s;
+}
+
+#line1 {
+    font-size: 36px;
+    top: 15%;
+    left: 10%;
+}
+
+#line2 {
+    font-size: 36px;
+    top: 15%;
+    left: 22%;
+}
+
+#line3 {
+    font-size: 36px;
+    top: 15%;
+    left: 34%;
+}
+
+#line4 {
+    font-size: 36px;
+    top: 25%;
+    left: 40%;
+}
+
+#line5 {
+    font-size: 120px;
+    top: 21%;
+    left: 30%;
+}
+
+#line6 {
+    font-size: 20px;
+    top: 60%;
+    left: 48%;
+}
+
+#line7 {
+    font-size: 36px;
+    top: 55.6%;
+    left: 54%;
+}
+
+#line8 {
+    font-size: 64px;
+    top: 48%;
+    left: 62%;
+}
+
+#line9 {
+    font-size: 24px;
+    top: 70%;
+    left: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.showing {
+    opacity: 1;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.appear {
+    display: block;
+}
+
+.disappear {
+    display: none;
+}
+

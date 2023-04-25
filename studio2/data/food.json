@@ -1,0 +1,47 @@
+{
+    "food1" : {
+        "time" : "11:23am",
+        "food" : "1 piece of cha lửa",
+        "reason" : "snuck a piece because it’s one of my favs"
+    },
+    "food2" : {
+        "time" : "11:49am",
+        "food" : "1 puff pastry meat pie",
+        "reason" : "another snack because i was hungry from setting up"
+    },
+    "food3" : {
+        "time" : "12:43pm",
+        "food" : "bánh cuốn, cha lửa, 1 egg roll, and 1 chicken wing",
+        "reason" : "grabbing my plate of food:)"
+    },
+    "food4" : {
+        "time" : "1:10pm",
+        "food" : "mini cup of peach me sweet tea",
+        "reason" : "became a personal bobarista for this party"
+    },
+    "food5" : {
+        "time" : "2:00pm",
+        "food" : "1 slice of milk and berries cake",
+        "reason" : "much needed slice of cake"
+    },
+    "food6" : {
+        "time" : "2:09pm",
+        "food" : "3 pieces of nem nướng, 1 piece of bánh hỏi, and 1 shrimp ball",
+        "reason" : "an after dessert snack"
+    },
+    "food7" : {
+        "time" : "2:21pm",
+        "food" : "another chicken wing",
+        "reason" : "an after snack snack"
+    },
+    "food8" : {
+        "time" : "4:34pm",
+        "food" : "1 cheese roll",
+        "reason" : "bake at home porto's is quite good"
+    },
+    "food9" : {
+        "time" : "5:06pm",
+        "food" : "1 glazed krispy kreme donut",
+        "reason" : "another snack to satisfy my sweets craving"
+    }
+}

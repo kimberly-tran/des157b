@@ -9,14 +9,12 @@ body {
     background-color: #7CD0FF;
     color: #333;
     transition: all 2s;
-    margin: auto;
+    margin: 40px auto;
     width: 60%;
     overflow-x: hidden;
 }
 
 main {
-    display: flex;
-    gap: 40px;
     background-color: rgba(241, 250, 255, .6);
     border-radius: 8px;
     padding: 20px;
@@ -44,10 +42,6 @@ header {
     100% {transform: translate(-50%, 0px)}
 }
 
-p {
-    margin: 0;
-}
-
 #banner {
     position: relative;
     display: flex;
@@ -67,7 +61,7 @@ p {
 
 img.cloudleft {
     position: absolute;
-    top: 50px;
+    top: 45px;
     left: -250px;
     animation: floatright 30s infinite linear;
 }

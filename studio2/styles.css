@@ -4,23 +4,54 @@ body {
     text-align: center;
     font-family: "Square Peg";
     background-color: #fcfcfa;
-    color: #584170;
+    color: #75519e;
 }
 
 h1 {
     font-size: 40px;
     letter-spacing: 2px;
+    /* font-family: "Reenie Beanie"; */
+}
+
+#clock {
+    position: relative;
+    /* margin: 50px; */
 }
 
 #time {
     font-family: "Roboto Mono";
     font-size: 36px;
     letter-spacing: 4px;
-    padding: 20px;
+    color: #75519e;
+    /* padding: 20px; */
+}
 
+#food , #description {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+#food {
+    font-weight: 600;
 }
 
 #description {
-    font-size: 28px;
-    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.fa-caret-up {
+   position: absolute; 
+   top: 50%;
+   right: 100px;
+}
+
+.fa-caret-down {
+    position: absolute; 
+    top: 50%;
+    left: 100px;
+}
+
+.fa-caret-up:hover, .fa-caret-down:hover {
+    cursor: pointer;
 }

@@ -1,46 +1,55 @@
 {
     "food1" : {
-        "time" : "11:23am",
+        "time" : "11:23 AM",
+        "image" : "image1",
         "food" : "1 piece of cha lửa",
-        "reason" : "snuck a piece because it’s one of my favs"
+        "reason" : "snuck a piece because i was getting hungry"
     },
     "food2" : {
-        "time" : "11:49am",
+        "time" : "11:49 AM",
+        "image" : "image2",
         "food" : "1 puff pastry meat pie",
-        "reason" : "another snack because i was hungry from setting up"
+        "reason" : "another snack because i was still hungry from setting up"
     },
     "food3" : {
-        "time" : "12:43pm",
+        "time" : "12:43 PM",
+        "image" : "image3",
         "food" : "bánh cuốn, cha lửa, 1 egg roll, and 1 chicken wing",
         "reason" : "grabbing my plate of food:)"
     },
     "food4" : {
-        "time" : "1:10pm",
+        "time" : "1:10 PM",
+        "image" : "image4",
         "food" : "mini cup of peach me sweet tea",
         "reason" : "became a personal bobarista for this party"
     },
     "food5" : {
-        "time" : "2:00pm",
+        "time" : "2:00 PM",
+        "image" : "image5",
         "food" : "1 slice of milk and berries cake",
         "reason" : "much needed slice of cake"
     },
     "food6" : {
-        "time" : "2:09pm",
+        "time" : "2:09 PM",
+        "image" : "image6",
         "food" : "3 pieces of nem nướng, 1 piece of bánh hỏi, and 1 shrimp ball",
         "reason" : "an after dessert snack"
     },
     "food7" : {
-        "time" : "2:21pm",
+        "time" : "2:21 PM",
+        "image" : "image7",
         "food" : "another chicken wing",
         "reason" : "an after snack snack"
     },
     "food8" : {
-        "time" : "4:34pm",
+        "time" : "4:34 PM",
+        "image" : "image8",
         "food" : "1 cheese roll",
         "reason" : "bake at home porto's is quite good"
     },
     "food9" : {
-        "time" : "5:06pm",
+        "time" : "5:06 PM",
+        "image" : "image9",
         "food" : "1 glazed krispy kreme donut",
         "reason" : "another snack to satisfy my sweets craving"
     }

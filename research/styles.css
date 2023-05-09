@@ -18,7 +18,7 @@ body#comparative {
     width: 80%;
 }
 
-#comparative section#last {
+#comparative section:last-of-type {
     margin-top: 40px;
 }
 
@@ -42,6 +42,21 @@ main {
 section {
     display: flex;
     gap: 40px;
+}
+
+main.bibliography section {
+    display: block;
+    margin-bottom: 30px;
+}
+
+main.bibliography section:last-of-type {
+    display: block;
+    margin-bottom: 0;
+}
+
+main.bibliography section p {
+    display: block;
+    margin-bottom: 8px;
 }
 
 a {

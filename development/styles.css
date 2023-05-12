@@ -75,3 +75,9 @@ img.cloudleft {
     0% {transform: translate(0px, 0px);}
     100% {transform: translate(1700px, 0px);}
 }
+
+main img {
+    display: block;
+    width: 50%;
+    margin: 16px auto 36px auto;
+}

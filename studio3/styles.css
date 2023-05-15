@@ -1,0 +1,69 @@
+* {
+    overflow: hidden;
+}
+
+#overlay {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border: 2px solid black;
+    position: relative;
+}
+
+#defaultCanvas0 {
+    border: 2px solid black;
+    width: 200px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+/* #canvasContainer {
+    border: 2px solid black;
+    width: 600px;
+    height: 400px;
+    margin: 80px auto;
+} */
+
+.fa-xmark {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 24px;
+}
+
+.fa-pencil {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    font-size: 24px;
+}
+
+.fa-eraser {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    font-size: 24px;
+}
+
+button:hover, .fa-xmark:hover, .fa-pencil:hover, .fa-eraser:hover {
+        cursor: pointer;
+}
+
+.showing {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    
+    #defaultCanvas0 {
+        border: 2px solid black;
+        width: 600px;
+        height: 400px;
+        margin: 80px auto;
+    }
+
+}

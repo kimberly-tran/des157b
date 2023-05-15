@@ -1,52 +1,39 @@
-* {
-    overflow: hidden;
+body {
+    font-family: "VT323";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #222;
+    text-align: center;
+    background-color: aliceblue;
 }
 
-#overlay {
-    width: 80%;
-    height: 80%;
-    margin: auto;
-    border: 2px solid black;
-    position: relative;
-}
-
-#defaultCanvas0 {
-    border: 2px solid black;
-    width: 200px;
-    height: 400px;
-    margin: 20px auto;
-}
-
-/* #canvasContainer {
-    border: 2px solid black;
-    width: 600px;
-    height: 400px;
-    margin: 80px auto;
-} */
-
-.fa-xmark {
+#popup {
     position: absolute;
-    top: 40px;
-    right: 40px;
-    font-size: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
 }
 
-.fa-pencil {
-    position: absolute;
-    bottom: 40px;
-    right: 100px;
-    font-size: 24px;
+#canvasContainer {
+    /* background-color: lightblue; */
+    width: fit-content;
+    height: fit-content;
+    margin: 80px auto 20px auto;
 }
 
-.fa-eraser {
-    position: absolute;
-    bottom: 40px;
-    right: 40px;
-    font-size: 24px;
-}
-
-button:hover, .fa-xmark:hover, .fa-pencil:hover, .fa-eraser:hover {
-        cursor: pointer;
+button {
+    border: none;
+    background-color: #B7F047;
+    font-size: 20px;
+    margin: 20px;
+    padding: 4px 12px;
+    font-family: "VT323";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: black 2px 2px;
 }
 
 .showing {
@@ -55,15 +42,4 @@ button:hover, .fa-xmark:hover, .fa-pencil:hover, .fa-eraser:hover {
 
 .hidden {
     display: none;
-}
-
-@media only screen and (min-width: 600px) {
-    
-    #defaultCanvas0 {
-        border: 2px solid black;
-        width: 600px;
-        height: 400px;
-        margin: 80px auto;
-    }
-
 }

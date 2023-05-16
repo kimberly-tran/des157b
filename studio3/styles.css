@@ -5,6 +5,15 @@ body {
     color: #222;
     text-align: center;
     background-color: aliceblue;
+    overflow-y: hidden;
+}
+
+/* h1 {
+    font-size: 30px;
+} */
+
+p {
+    font-size: 20px;
 }
 
 #popup {
@@ -22,11 +31,13 @@ body {
     width: fit-content;
     height: fit-content;
     margin: 80px auto 20px auto;
+    font-family: "VT323";
 }
 
 button {
     border: none;
-    background-color: #B7F047;
+    color: white;
+    background-color: #F45154;
     font-size: 20px;
     margin: 20px;
     padding: 4px 12px;
@@ -34,6 +45,11 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     box-shadow: black 2px 2px;
+    border-radius: 2px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .showing {
@@ -42,4 +58,21 @@ button {
 
 .hidden {
     display: none;
+}
+
+footer {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    letter-spacing: 2px;
+    bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    color:#F45154;
 }

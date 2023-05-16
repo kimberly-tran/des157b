@@ -21,26 +21,55 @@ function setup() {
 
 function draw() {
 // background color
-background('#a7d4ff');
+background('#7CD0FF');
 
 // creating ground
 noStroke();
-fill('#45b82b');
+fill('#86dc36');
 rect(0, 200, 800, 300); 
 
 
 //create charA
-fill('#222');
+fill('#ffdf11');
 rect(charAX, charAY, 50, 50)
+    //nose
+fill('#fd9400');
+rect(charAX+25, charAY+20, 10, 10)
+    //eyes
+fill('#222');
+rect(charAX+15, charAY+15, 5, 5)
+fill('#222');
+rect(charAX+40, charAY+15, 5, 5)
+    //feet
+fill('#fd9400');
+rect(charAX+10, charAY+45, 10, 5)
+fill('#fd9400');
+rect(charAX+35, charAY+45, 10, 5)
+
 
 //create charB
-fill('#FFF');
+fill('#fffefb');
 rect(charBX, charBY, 50, 50)
+    //nose
+fill('#fd9400');
+rect(charBX+15, charBY+20, 10, 10)
+    //eyes
+fill('#222');
+rect(charBX+5, charBY+15, 5, 5)
+fill('#222');
+rect(charBX+30, charBY+15, 5, 5)
+    //feet
+fill('#fd9400');
+rect(charBX+5, charBY+45, 10, 5)
+fill('#fd9400');
+rect(charBX+30, charBY+45, 10, 5)
 
 //tag popup text
 if(dist(charAX, charAY, charBX, charBY) < 50) {
+    fill('#222');
     textSize(36);
-    text("TAG", 400, 200)
+    textFont('VT323')
+    text("TAG", (charAX+charBX)/2, ((charAY+charBY)/2)-15)
 }
 }
 
@@ -54,38 +83,40 @@ function keyPressed (event) {
     // });
     
     //charB keys
-    if (key == "d") {
+    if (key == "ArrowRight") {
         newCharBX = charBX + 10;
         charBX = newCharBX;
     }
-    if (key == "a") {
+    if (key == "ArrowLeft") {
         newCharBX = charBX - 10;
         charBX = newCharBX;
     }
-    if (key == "w") {
+    if (key == "ArrowUp") {
         newCharBY = charBY - 10;
         charBY = newCharBY;
     }
-    if (key == "s") {
+    if (key == "ArrowDown") {
         newCharBY = charBY + 10;
         charBY = newCharBY;
     }
 
     //charA keys
-    if (key == "ArrowRight") {
+    if (key == "d") {
         newCharAX = charAX + 10;
         charAX = newCharAX;
     }
-    if (key == "ArrowLeft") {
+    if (key == "a") {
         newCharAX = charAX - 10;
         charAX = newCharAX;
     }
-    if (key == "ArrowUp") {
+    if (key == "w") {
         newCharAY = charAY - 10;
         charAY = newCharAY;
     }
-    if (key == "ArrowDown") {
+    if (key == "s") {
         newCharAY = charAY + 10;
         charAY = newCharAY;
     }
+
+    console.log(key)
 }

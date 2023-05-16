@@ -118,5 +118,5 @@ function keyPressed (event) {
         charAY = newCharAY;
     }
 
-    console.log(key)
+    // console.log(key);
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions</title>
+    <style>
+        html {
+            background-color: #efefef;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            line-height: 1.4em;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        code {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Change this H1</h1>
+
+    <p>This simple function I created stores a color inputted as a string and assigns it to a variable called "color". This is then used when changing the color value of the h1 tag.</p>
+
+    <h2>Named Function</h2>
+    <code>
+        <pre>
+            function changeColor(aString){
+                color = aString;
+                document.querySelector('h1').style.color = color;
+            }
+        </pre>
+    </code>
+
+    <h2>Function Expression</h2>
+    <code>
+        <pre>
+            const changeColor = function(aString){
+                color = aString;
+                document.querySelector('h1').style.color = color;
+            }
+        </pre>
+    </code>
+
+    <h2>Arrow Function</h2>
+    <code>
+        <pre>
+            const changeColor = aString => {
+                color = aString;
+                document.querySelector('h1').style.color = color;
+            }
+        </pre>
+    </code>
+
+    <footer> Your Name </footer>
+    
+    <script>
+         const changeColor = function(aString){
+                color = aString;
+                document.querySelector('h1').style.color = color;
+            }
+        console.log(changeColor('green'));
+    </script>
+</body>
+</html>

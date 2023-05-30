@@ -7,7 +7,7 @@ async function getData() {
     document.querySelector('#image').innerHTML = outputImage(data);
     document.querySelector('#food').innerHTML = outputFood(data);
     document.querySelector('#food').textContent = "pre party set-up";
-    document.querySelector('#description').innerHTML = outputDescription(data);
+    document.querySelector('#descrgiption').innerHTML = outputDescription(data);
     document.querySelector('#description').textContent = "";
 }
 

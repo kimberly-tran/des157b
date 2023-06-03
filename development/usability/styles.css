@@ -59,8 +59,12 @@ main {
 #game {
     width: 1000px;
     height: 600px;
-    background-color: #e3d8cd;
+    /* background-color: #e3d8cd; */
     position: relative;
+}
+
+#gameArea {
+    border-radius: 20px;
 }
 
 #gallery {
